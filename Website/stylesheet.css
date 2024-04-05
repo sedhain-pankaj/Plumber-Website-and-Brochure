@@ -1,0 +1,84 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 4%;
+  color: rgb(0, 81, 83);
+  margin-bottom: 2ch;
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+}
+
+h2 {
+  color: darkcyan;
+}
+
+#reset {
+  color: red;
+}
+
+#submit {
+  color: rgb(21, 104, 0);
+}
+
+/* Centering the placeholder */
+::-webkit-input-placeholder {
+  text-align: center;
+}
+:-moz-placeholder {
+  text-align: center;
+}
+::-moz-placeholder {
+  text-align: center;
+}
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+/* Right Navigation Pane in checklist */
+.sidenav {
+  height: 75%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 110px;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.125s;
+  padding-top: 30px;
+}
+
+.sidenav a {
+  padding: 2px 2px 4px 22px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.sidenav .closebtn:hover {
+  color: red;
+}
+
+@media screen {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 15px;
+  }
+}
